@@ -68,6 +68,23 @@ table{
 
 
 
+
+
+            .navbar{
+                display:inline;
+                padding: 5px;
+                margin: 25px;
+                background-color: antiquewhite;
+                text-align: center;
+                text-decoration: none;
+                color: darkolivegreen;
+            }
+
+.navbar a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
 .navbarselected a{
     color: antiquewhite;
     text-decoration: none;
@@ -82,25 +99,6 @@ table{
                 text-decoration: none;
                 color: darkolivegreen;
             }
-
-            .navbar{
-                display:inline;
-                padding: 5px;
-                margin: 25px;
-                background-color: antiquewhite;
-                text-align: center;
-                text-decoration: none;
-                color: darkolivegreen;
-            }
-
-
-     
-
-.navbar a{
-    text-decoration: none;
-    color: darkolivegreen;
-}
-
             .navbar a:hover{
                 background-color: darkolivegreen;
                 text-align: center;
@@ -113,4 +111,3 @@ table{
                 background-color: antiquewhite;
                 text-align: center;
             }
-            
