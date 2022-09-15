@@ -1,0 +1,114 @@
+h1{
+                color: antiquewhite;
+                font-family: sans-serif;
+                text-align: center;
+            }
+            
+            #head{
+                text-align: center;
+                color:antiquewhite
+            }
+            
+            #subhead{
+                color:grey;
+                font-family: sans-serif;
+            }
+            
+            img{
+                padding-left: 25px;
+                padding-right; 25px;
+            }
+            
+            h2{
+                font-family: sans-serif;
+                padding-left: 25px;
+                padding-right; 25px;
+            }
+            
+            h3{
+                font-family: sans-serif;
+                padding-left: 25px;
+                padding-right; 25px;
+            }
+            
+            p{
+                font-family: sans-serif;
+                padding-left: 25px;
+                padding-right; 25px;
+                padding-top: 175px;
+            }
+            
+            li{
+                font-family: sans-serif;
+                list-style-position: inside;
+                
+            }
+
+table{
+    width: 400px;
+    margin: 10px auto;
+}
+            
+            header{
+                background-color: darkolivegreen;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-top: -19px;
+                width: 100%;
+                position: fixed;
+            }
+
+
+            #nav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                
+            }
+
+
+
+
+
+            .navbar{
+                display:inline;
+                padding: 5px;
+                margin: 25px;
+                background-color: antiquewhite;
+                text-align: center;
+                text-decoration: none;
+                color: darkolivegreen;
+            }
+
+.navbar a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.navbarselected a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navbarselected{
+                display:inline;
+                padding: 5px;
+                margin: 25px;
+                background-color: darkolivegreen;
+                text-align: center;
+                text-decoration: none;
+                color: darkolivegreen;
+            }
+            .navbar a:hover{
+                background-color: darkolivegreen;
+                text-align: center;
+                text-decoration: none;
+                color: antiquewhite;
+            }
+     
+            
+            body{
+                background-color: antiquewhite;
+                text-align: center;
+            }
+            
