@@ -93,12 +93,7 @@ table{
                 color: darkolivegreen;
             }
 
- .navbarselected a:hover{
-                background-color: antiquewhite;
-                text-align: center;
-                text-decoration: none;
-                color: darkolivegreen;
-            }
+
      
 
 .navbar a{
