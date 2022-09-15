@@ -68,7 +68,20 @@ table{
 
 
 
+.navbarselected a{
+    color: antiquewhite;
+    text-decoration: none;
+}
 
+.navbarselected{
+                display:inline;
+                padding: 5px;
+                margin: 25px;
+                background-color: darkolivegreen;
+                text-align: center;
+                text-decoration: none;
+                color: darkolivegreen;
+            }
 
             .navbar{
                 display:inline;
