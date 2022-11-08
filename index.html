@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Which Spider-Man are you?</title>
+        <style>
+            #container {
+                background-color: #a60000;
+                color: white;
+                width: 80%;
+                height: 650px;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+                padding-left: 30px;
+                text-align: center;
+                border-radius: 80px;
+                font-family: sans-serif;
+            }
+            #button {
+                background-color: #2f3a8f;
+                width: fit-content;
+                height: fit-content;
+                color: grey;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                padding: 0px;
+            }
+            #button2 {
+                background-color: #2f3a8f;
+                width: fit-content;
+                height: fit-content;
+                color: grey;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                padding: 0px;
+            }
+            
+            #button3 {
+                background-color: #2f3a8f;
+                width: fit-content;
+                height: fit-content;
+                color: grey;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                padding: 0px;
+            }
+            
+            #button4 {
+                background-color: #2f3a8f;
+                width: fit-content;
+                height: fit-content;
+                color: grey;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                padding: 0px;
+            }
+            
+            #button:hover {
+                opacity: 0.7;
+            }
+            
+            #button2:hover {
+                opacity: 0.7;
+            }
+            
+            #button3:hover {
+                opacity: 0.7;
+            }
+            
+            #button4:hover {
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="container">
+            
+        <h1 id="heading">Which Spider-Man are you?</h1>
+        
+        
+        <h2 id="question">How old are you?</h2>
+    <div id="buttons">
+        <button id="button" type="image"><img id="image1" src="1-14.png" height="220px" alt="1-14"></button>
+        
+        <button id="button2" type="image"><img id="image2" src="15-17.png" height="220px" alt="15-17"></button>
+            
+        <button id="button3" type="image"><img id="image3" src="18-23.png" height="220px" alt="18-23"></button>
+            
+        <button id="button4" type="image"><img id="image4" src="24.png" height="220px" alt="24"></button>
+     </div>   
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        
+        <script>
+            
+            let number = 0;
+            
+            let button2click = function(){
+                number += 1;
+            }
+            $("#button2").on("click", button2click);
+            
+            
+            
+            let button3click = function(){
+                number += 2;
+            }
+            $("#button3").on("click", button3click);
+            
+            
+            
+            let button4click = function(){
+                number += 3;
+            }
+            $("#button4").on("click", button4click);
+            
+            
+            
+            
+           let scene2 = function(){
+               $("#question").text("Choose a pair of glasses.");
+               $("#image1").attr("src", "g1.jpeg");
+               $("#image2").attr("src", "gar.jpeg");
+               $("#image3").attr("src", "tob.png");
+               $("#image4").attr("src", "NONE.png");
+               $("#buttons").on("click",scene3);
+           }
+           
+           let scene3 = function(){
+               $("#question").text("Which logo suits you best?");
+               $("#image1").attr("src", "tom.jpeg");
+               $("#image2").attr("src", "and1.jpeg");
+               $("#image3").attr("src", "spid1.jpeg");
+               $("#image4").attr("src", "ps4.jpg");
+               $("#buttons").on("click",scene4);
+           }
+           
+           let scene4 = function(){
+               $("#question").text("Which is your Favorite View?");
+               $("#image1").attr("src", "mid.png");
+               $("#image2").attr("src", "emp.jpeg");
+               $("#image3").attr("src", "tobey.jpeg");
+               $("#image4").attr("src", "world.jpeg");
+               $("#buttons").on("click",scene5);
+           }
+           
+           let scene5 = function(){
+               $("#question").text("Pick a Hobby.");
+               $("#image1").attr("src", "legos.jpg");
+               $("#image2").attr("src", "skate.jpg");
+               $("#image3").attr("src", "pizza.jpg");
+               $("#image4").attr("src", "chem.jpg");
+               $("#buttons").on("click",scene6);
+           }
+           
+           let scene6 = function(){
+               $("#question").text("Who scares you the most?");
+               $("#image1").attr("src", "mcu.jpeg");
+               $("#image2").attr("src", "sony.jpeg");
+               $("#image3").attr("src", "willem.png");
+               $("#image4").attr("src", "otto.png");
+               $("#buttons").on("click",scene7);
+           }
+           
+           let scene7 = function(){
+               $("#question").text("What Grade are you in?");
+               $("#image1").attr("src", "FRESH.jpg");
+               $("#image2").attr("src", "JUNIOR.jpg");
+               $("#image3").attr("src", "college.jpg");
+               $("#image4").attr("src", "GRAD.jpg");
+               $("#buttons").on("click",scene8);
+           }
+           
+           let scene8 = function(){
+               $("#question").text("Choose a pair of shoes.");
+               $("#image1").attr("src", "maxes.jpg");
+               $("#image2").attr("src", "skateshoes.jpg");
+               $("#image3").attr("src", "running.jpg");
+               $("#image4").attr("src", "dress.jpg");
+               $("#buttons").on("click",scene9);
+           }
+           
+           let scene9 = function(){
+               $("#question").text("Choose a web shooter.");
+               $("#image1").attr("src", "tomshot.jpg");
+               $("#image2").attr("src", "andy.jpg");
+               $("#image3").attr("src", "natty.jpg");
+               $("#image4").attr("src", "yuri.jpg");
+               $("#buttons").on("click",scene10);
+           }
+           
+           let scene10 = function(){
+               $("#question").text("What symbiote suit do you want?");
+               $("#image1").attr("src", "tomsym.jpg");
+               $("#image2").attr("src", "andsym.jpg");
+               $("#image3").attr("src", "tobsym.jpg");
+               $("#image4").attr("src", "ps4sym.jpg");
+               $("#buttons").on("click",scene11);
+           }
+           
+            let scene11 = function(){
+                if (number <= 7) {
+                $("#question").text("You are the MCU Spiderman!");
+                $("#image1").attr("src", "thspider.jpeg");
+               $("#image2").attr("src", "tompete.jpeg");
+               $("#image3").remove();
+               $("#image4").remove();
+            }
+               else if (number <= 15) {
+                $("#question").text("You are the Amazing Spiderman!");
+                $("#image1").attr("src", "andspid.jpeg");
+               $("#image2").attr("src", "andpete.jpeg");
+               $("#image3").remove();
+               $("#image4").remove();   
+            }
+                else if (number <= 22) {
+                $("#question").text("You are the OG Sony Spiderman!");
+                $("#image1").attr("src", "tmspid.jpeg");
+               $("#image2").attr("src", "tmpete.jpeg");
+               $("#image3").remove();
+               $("#image4").remove();
+            }
+                else if (number <= 30) {
+                $("#question").text("You are the PS4 Spiderman!");
+                $("#image1").attr("src", "psspider.jpeg");
+               $("#image2").attr("src", "pspete.jpeg");
+               $("#image3").remove();
+               $("#image4").remove();
+            }
+           }
+            
+            
+            
+            
+           
+            
+           
+           
+           $("#buttons").on("click",scene2);
+           
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        </script>
+        
+    </body>
+</html>
