@@ -1,0 +1,202 @@
+h1{
+                color: white;
+                font-family: "DIN Alternate", sans-serif;
+                text-align: center;
+            }
+            
+            #head{
+                text-align: center;
+                color:white;
+            }
+            
+            #subhead{
+                color:lightgrey;
+                font-family:"DIN Alternate", sans-serif;
+            }
+            
+            img{
+                padding-left: 25px;
+                padding-right; 25px;
+            }
+            
+            h2{
+                font-family: "DIN Alternate", sans-serif;
+                padding-left: 25px;
+                padding-right; 25px;
+                color: white;
+            }
+            
+            h3{
+                font-family: "DIN Alternate", sans-serif;
+                padding-left: 25px;
+                padding-right; 25px;
+            }
+            #about{
+      
+                font-family: "DIN Alternate", sans-serif;
+                color:white;
+                text-align: center;
+                position: relative;
+                width: 500px;
+                margin: auto;
+                
+            
+}
+            
+            #theone{
+                font-family: "DIN Alternate", sans-serif;
+                padding-left: 25px;
+                padding-right; 25px;
+                padding-top: 175px;
+                color:white;
+            }
+
+
+            
+            li{
+                font-family: "DIN Alternate", sans-serif;
+                list-style-position: inside;
+                
+            }
+
+
+            
+            header{
+                background-color: #540600;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-top: -19px;
+                width: 100%;
+                position: fixed;
+                z-index: 9999;
+            }
+
+
+            #nav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                
+            }
+
+
+
+
+
+            .navbar{
+                display:inline;
+                padding: 5px;
+                margin: 25px;
+                background-color: #292929;
+                text-align: center;
+                text-decoration: none;
+                color: darkolivegreen;
+            }
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+
+.navbarselected a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbarselected{
+                display:inline;
+                padding: 5px;
+                margin: 25px;
+                background-color: #540600;
+                text-align: center;
+                text-decoration: none;
+                color: darkolivegreen;
+            }
+            .navbar a:hover{
+                background-color: #540600;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+            }
+     
+            
+            body{
+                background-color: #292929;
+                text-align: center;
+            }
+
+#gallery a:hover{
+        opacity: 0.2;
+}
+
+footer{
+            background-color: #540600;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                color: white;
+                font-family: "DIN Alternate", sans-serif;
+                text-align: center;
+}
+
+.container {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  left: 0; right: 0;
+  padding: 20px; 
+margin: auto;
+   
+}
+
+
+.container2 {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  margin: ;
+  margin: auto;
+  padding: 20px; 
+    
+    
+}
+
+.container3 {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  margin: ;
+  margin: auto;
+  padding: 20px; 
+    
+    
+}
+
+
+
+  .slider {
+    position: relative;
+    width: 100%; height: 100%;
+    overflow: hidden;
+    border-radius: 0px;
+          border-width: 20px;
+      border-color: white;
+
+    
+}
+    .slide {
+      position: relative;
+      height: 100%;
+      float: left;
+      transition: width .5s ease;
+}
+      img {height: 100%; box-shadow: 0 0 10px rgba(black, .5);}
+    }
+  }
+}
+  
+
+
+
+            

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    
+    <!-- this is my head -->
+    <head>
+        <title>Sean Cornely Photography</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"> 
+        
+    </head>
+    
+    
+    <!-- header is here -->
+    <header>
+        <h1>Photography by Sean Cornely</h1>
+        
+        <h3 id="head"><em>DART 340 - Final Project</em></h3>
+        
+        <ul id="nav">
+            <li class="navbar"><a href="index.html">Home</a></li>
+            <li class="navbarselected"><a href="page2.html">Gallery</a></li>
+            <li class="navbar"><a href="page3.html">About Me</a></li>
+        </ul>
+    </header>  
+    
+    <!-- beginning of body -->
+    <body>
+        <p id="theone">The one and only page to view Sports photography by Sean Cornely.</p>
+        
+        
+        <h1>Gallery.</h1>
+       
+        <div class="container">
+  <div class="slider">
+    <div class="slide"><img src="fockey.jpg" /></div>
+    <div class="slide"><img src="msoc.jpg" /></div>
+    <div class="slide"><img src="wsoc.jpg" /></div>
+    <div class="slide"><img src="wbb.jpg" /></div>
+    <div class="slide"><img src="lax.jpg" /></div>
+  </div>
+            
+            
+            
+</div>
+        <div class="container2">
+     <div class="slider">
+    <div class="slide"><img src="tate.jpg" /></div>
+    <div class="slide"><img src="team.jpg" /></div>
+    <div class="slide"><img src="lig.jpg" /></div>
+    <div class="slide"><img src="cooly.jpg" /></div>
+    
+  </div>   
+            
+            </div>
+        
+        <div class="container3">
+     <div class="slider">
+    <div class="slide"><img src="rokus.jpg" /></div>
+    <div class="slide"><img src="war.jpg" /></div>
+    <div class="slide"><img src="warshot.jpg" /></div>
+    <div class="slide"><img src="dres.jpg" /></div>
+    
+  </div>   
+            
+            </div>
+            
+            
+            
+            
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script>
+        
+                let slides = $('.slider .slide').length;
+                let slideWidth = 100 / slides;
+                let $slide = $('.slider .slide');
+                let hoverWidth = 90;
+                let nonhoverWidth = (100 - hoverWidth) / (slides-1);
+
+                $slide.css('width', slideWidth+"%");
+
+                $slide.hover(function() {
+                $(this).css('width', hoverWidth+"%");
+                $(this).siblings().css('width', nonhoverWidth+"%");
+            }, function() {
+                $slide.css('width', slideWidth+"%");
+            });
+            
+            
+        </script>
+  
+        
+    
+    
+    
+        
+        
+        
+    
+    </body>
+    
+     <footer>
+        <p>Created and Designed by Sean Cornely for the DArt 340 Final Project</p>
+    </footer>
+</html>
